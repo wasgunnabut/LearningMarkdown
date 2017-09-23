@@ -1,0 +1,106 @@
+# Use a \# to make a header
+## use more than one \# to make a sub header
+or use = under the line to create a level one header
+====
+Use - to create a level two headline
+--
+
+# I prefer the \# method
+
+**to Bold**
+
+*to Italicize*
+
+`ticks to show as code element`
+
+\* to render a literal character
+
+<P> can use html code as well
+
+easy to make a new paragraph
+
+to make a line break
+use two spaces right before you want the page break
+
+ >to create block quotes. It will even continue
+ onto the next line
+
+ >>to create an indented block quote
+
+ ---
+ to create a dashed line
+
+ to create a list
+- use a hyphen
+- for each
+- don't forget a space
+ - use a space to create sublist
+ - blah blah blah. Marsupials.
+
+ To create a numbered list
+ 1. type the number
+ 2. use a period after number
+ 3. dont' forget the space
+ 44. can use any number!
+ 87. Markdown just convert to ordered list in html
+
+Links:
+Inline: Link and clickable link appear together
+[this is my link](www.facebook.com)
+
+OR
+
+<https://www.facebook.com>
+<jamu6792@colorado.edu>
+
+Reference Link: URL apperas seperately from the referene.
+This is an example of a [link][1]
+[1]:http://facebook.com
+Please email [Jim][Jim]
+[Jim]:jamu6792@colorado.edu
+
+Images:
+Inline or Reference
+
+Inline
+![shorts](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiYwfXdhrrWAhUmhlQKHVXUAaIQjRwIBw&url=http%3A%2F%2Fwww.hm.com%2Fus%2Fproducts%2Fmen%2Fshorts&psig=AFQjCNG0bTrmCRmkq9UpRpgePZCIjId0Eg&ust=1506212747417547)
+
+Reference Image Link
+![shorts][1]
+[1]:https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiYwfXdhrrWAhUmhlQKHVXUAaIQjRwIBw&url=http%3A%2F%2Fwww.hm.com%2Fus%2Fproducts%2Fmen%2Fshorts&psig=AFQjCNG0bTrmCRmkq9UpRpgePZCIjId0Eg&ust=1506212747417547
+
+Image that is linkable
+[![shorts](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiYwfXdhrrWAhUmhlQKHVXUAaIQjRwIBw&url=http%3A%2F%2Fwww.hm.com%2Fus%2Fproducts%2Fmen%2Fshorts&psig=AFQjCNG0bTrmCRmkq9UpRpgePZCIjId0Eg&ust=1506212747417547)](https://facebook.com)
+
+
+
+Github Flavored Markdown:
+
+Ignores Underscores
+
+~~strikethrough~~
+
+[ ] task lists
+
+Auto-hotlinking: When type in http link, auto detects as link, don't have to add angle brackets
+
+
+Fenced codeblocks
+```html
+<p>
+```
+
+Tables
+
+
+First Header | Second Header | Third Header | Fourth Header
+----|:----|-----:|:------:|
+Content   |    content   |     Content|content
+content|||content
+content|content|Content|content
+Content|**content**|Content|content
+content|content|Content|content
+Content|content|Content|content
+content|content|Content|content
+
+Markdown Table Generator
